@@ -9,7 +9,7 @@ body {
 
 header {
     display: flex;
-    width: 1242px;
+   position: absolute;
     color: rgba(122, 236, 198, 0.842);
     height: 70px;
     background: rgba(0, 0, 0, 0.726);
