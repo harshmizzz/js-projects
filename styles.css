@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-*{
-   box-sizing: border-box;
-   margin-right:0;
+
+* {
+    box-sizing: border-box;
+    margin-right: 0;
 }
+
 body {
     font-family: "Montserrat", sans-serif;
     margin-top: -20px;
     margin-left: 0px;
-background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 header {
     display: flex;
-   position: relative;
+    position: relative;
     color: rgba(122, 236, 198, 0.842);
     height: 70px;
     background: rgba(0, 0, 0, 0.726);
@@ -38,7 +40,7 @@ header {
 .box p {
     margin-left: 125px;
     margin-top: 10px;
-    color:rgba(122, 236, 198, 0.842);
+    color: rgba(122, 236, 198, 0.842);
 }
 
 .box button {
@@ -102,33 +104,26 @@ address div {
     justify-content: center;
 }
 
-@media (max-width:800px){
-    
-body{
-    min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-.logo{
-    align-items: flex-start;
-    justify-content: flex-start;
-    display: flex;
-    position: absolute;
-}
+@media (max-width:800px) {
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        align-items: flex-start;
+        justify-content: flex-start;
+        display: flex;
+        position: absolute;
+    }
+
     .main {
         display: flex;
         flex-direction: column;
         position: relative;
         max-width: 700px;     
     }
-   .footer{
-    display: flex;
-    position: relative;
-}
-.header .div{
-    align-items: left;
-    justify-content: left;
-    flex: left
-}
     
 }
