@@ -122,6 +122,10 @@ body{
     max-width: 700px;
     
 }
-
+.header .div{
+    align-items: left;
+    justify-content: left;
+    flex: left
+}
 
 }
