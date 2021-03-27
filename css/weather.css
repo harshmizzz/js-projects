@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+
+
+
+    width: 50vw;
+    margin: 80px auto;
+    background: rgba(225, 232, 255, 0.712);
+    
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    min-height: 88.5vh;
+    background-image: linear-gradient(to top, #f2e1ea, #eddffe, #c8e5ff, #85f0ff, #3df8ff, #50fbf8, #62fdf1, #72ffea, #9afff1, #bbfff7, #dafffb, #f6fffe);
+   
+}
+
+.location,.temperature{
+height: 30vh;
+width: 40%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section {
+  display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 40px;
+}
+.temperature-description{
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+.location div{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+   display: flex;
+   width: 20vw; height: 20vh;
+   align-items: center;
+   justify-content: center;
+    margin: 80px auto;
+    background: rgba(45, 94, 253, 0.404);
+border-radius: 5px;
+}
+.header{
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #313636;
+}
